@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ebd216, #d90f0f);
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(156, 25, 67, 0.2);
+    animation: backwards 1.8s ease-in-out;
+  }
+  
+  .welcome-section {
+    flex: 1;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #d90f0f, #ebd216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    animation: floatText 2s infinite;
+  }
+  
+  .welcome-section p {
+    font-size: 1rem;
+    margin-top: 10;
+  }
+  
+  .login-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .form-options a {
+    color: #e02b55;
+    text-decoration: none;
+    animation: floatText 2s infinite;
+  }
+  
+  .form-options a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #dfdf0f, #d11352);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #fc2570, #b8cb11);
+  }
+  
+  .login-section p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .login-section p a {
+    color: #a42a2a;
+    text-decoration: none;
+  }
+  
+  .login-section p a:hover {
+    text-decoration: underline;
+  }
+  
